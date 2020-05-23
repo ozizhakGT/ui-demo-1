@@ -1,0 +1,40 @@
+.DepartmentBox {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  font-size: 1.6rem;
+
+  &--headline {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &-title {font-size: 2.2rem;}
+  }
+
+  &--rank {
+    width: 73%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.6rem;
+    color: #707070;
+    &-score > svg {width: 12px}
+    &-score > svg:not(:last-child) {margin-right: 3px}
+  }
+
+  &--money-saved {
+    display: flex;
+    align-items: center;
+    & > svg {width: 17px;}
+    & > svg:not(:last-child) {margin-right: 3px}
+  }
+
+  &--info {
+    display: flex;
+    align-items: center;
+    & > div > span:first-child {color: #ed6982}
+    & .DepartmentBox__bullet {padding: 0 7px}
+  }
+}

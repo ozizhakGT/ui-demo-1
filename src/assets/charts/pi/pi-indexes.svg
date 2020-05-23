@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="318.21" height="18" viewBox="0 0 318.21 18">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ffa52e;
+      }
+
+      .cls-2 {
+        fill: #42db9c;
+      }
+
+      .cls-3 {
+        fill: #7b3ff2;
+      }
+
+      .cls-4 {
+        fill: #414141;
+        font-size: 14px;
+        font-family: Arial;
+        letter-spacing: 0.025em;
+      }
+    </style>
+  </defs>
+  <g id="Group_287" data-name="Group 287" transform="translate(-373.79 -431)">
+    <path id="Path_269" data-name="Path 269" class="cls-1" d="M0,0H9V9H0Z" transform="translate(373.79 436)"/>
+    <path id="Path_270" data-name="Path 270" class="cls-2" d="M0,0H9V9H0Z" transform="translate(472.79 436)"/>
+    <path id="Path_271" data-name="Path 271" class="cls-3" d="M0,0H9V9H0Z" transform="translate(619.79 436)"/>
+    <text id="Women" class="cls-4" transform="translate(386 445)"><tspan x="0" y="0">Women</tspan></text>
+    <text id="People_of_colour" data-name="People of colour" class="cls-4" transform="translate(485 445)"><tspan x="0" y="0">People of Color</tspan></text>
+    <text id="Veterans" class="cls-4" transform="translate(632 445)"><tspan x="0" y="0">Veterans</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,62 @@
+.DepartmentPage {
+  backface-visibility: hidden;
+
+  &__routes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1rem;
+    margin: 30px 0 15px 0;
+
+    &--headline {display: flex; flex-direction: column; justify-content: space-between;}
+    &--progress-bar {width: 230px;}
+    &--progress-bar > p {transform: translate(25px, -10px); font-size: 1.3rem}
+    &--links, &--links > p {display: flex}
+    &--links  a {text-decoration: underline; cursor: pointer}
+  }
+
+  &__search {
+    font-size: 1.6rem;
+    width: 100%;
+    background-color: white;
+    padding: 10px 40px 10px 20px;
+    box-sizing: border-box;
+    margin-bottom: 45px;
+    border-radius: 2px;
+
+    &--input {
+      height: 100%;
+      display: flex;
+      align-items: center;
+
+      & > input {height: 50px; flex: 1; border-top: none; border-right: none;}
+    }
+
+    &--toggle {
+      cursor: pointer;
+      color: #707070;
+      width: 110px;
+      display: flex;
+      justify-content: space-between;
+
+      & svg {margin-right: 5px}
+      & > span:last-child {transform: translateY(-2px);  transition: all .2s; margin-right: 10px}
+      &-open {transform: translateY(6px) rotate(180deg) !important;}
+    }
+
+    &--filter {height: auto;overflow: hidden;min-height: 0;max-height: 0;display: flex;justify-content: space-between; align-items: flex-end; opacity: 0;transition: min-height .2s, opacity .2s .3s;}
+
+    .open-filter {opacity: 1;overflow: initial;min-height: 100px; padding-bottom: 10px;}
+  }
+
+  &__save {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-bottom: 12px;
+
+    & > p {font-size: 1.3rem}
+    & > button {border: none; font-size: 1.6rem; background-color: #010a60; color: white;  width: 106px;height: 36px; border-radius: 20px; margin-left: 8px}
+    & > button:focus {outline: none;}
+  }
+}

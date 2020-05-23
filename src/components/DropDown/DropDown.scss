@@ -1,0 +1,27 @@
+.DropDown {
+  display: flex;
+  flex-direction: column;
+
+  &__label {color: #707070; padding-bottom: 10px}
+  &__select {cursor: pointer; position: relative; width: 100%; height: 40px; border: solid 2px #c4e0fa; display: flex; align-items: center; background-color: white}
+  &__select:focus {outline: none;}
+  &__placeholder {color: #707070; padding-left: 30px}
+  &__value {width: 100%; text-align: center;}
+  &__no-border {border: none}
+  &__arrow {
+    position: absolute;
+    right: 10px;
+    bottom: 12px;
+    transition: all .2s;
+
+    &-open {transform: rotate(180deg); bottom: 5px}
+  }
+  &__options {z-index: 2000000;position: absolute; text-align: center; top: 100%;left: -2px;right: -2px; background-color: white; border: #c4e0fa 2px solid;}
+  &__options > li {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+
+    &:hover {background-color: #c4e0fa}
+  }
+}

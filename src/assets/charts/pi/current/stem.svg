@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="175" height="132" viewBox="0 0 175 132">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #42db9c;
+      }
+
+      .cls-1, .cls-3, .cls-4 {
+        opacity: 0.765;
+      }
+
+      .cls-2, .cls-5 {
+        fill: #fff;
+        font-family: Arial;
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        font-size: 16px;
+      }
+
+      .cls-3 {
+        fill: #ffa52e;
+      }
+
+      .cls-4 {
+        fill: #7b3ff2;
+      }
+
+      .cls-5 {
+        font-size: 11px;
+      }
+    </style>
+  </defs>
+  <g id="Group_293" data-name="Group 293" transform="translate(-385 -263)">
+    <circle id="Ellipse_241" data-name="Ellipse 241" class="cls-1" cx="47.5" cy="47.5" r="47.5" transform="translate(385 270)"/>
+    <text id="_8k" data-name="8k" class="cls-2" transform="translate(423 324)"><tspan x="0" y="0">8k</tspan></text>
+    <circle id="Ellipse_239" data-name="Ellipse 239" class="cls-3" cx="55" cy="55" r="55" transform="translate(450 263)"/>
+    <text id="_9k" data-name="9k" class="cls-2" transform="translate(496 324)"><tspan x="0" y="0">9k</tspan></text>
+    <circle id="Ellipse_242" data-name="Ellipse 242" class="cls-4" cx="15" cy="15" r="15" transform="translate(450 365)"/>
+    <text id="_1k" data-name="1k" class="cls-5" transform="translate(459 384)"><tspan x="0" y="0">1k</tspan></text>
+  </g>
+</svg>

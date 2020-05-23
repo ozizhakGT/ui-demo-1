@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="11.941" height="10.834" viewBox="0 0 11.941 10.834">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #010a60;
+      }
+    </style>
+  </defs>
+  <path id="Icon_metro-home" data-name="Icon metro-home" class="cls-1" d="M14.512,9.385,8.541,4.751,2.571,9.385V7.5l5.97-4.635L14.512,7.5Zm-1.493-.168v4.478H10.034V10.71H7.049v2.985H4.063V9.217L8.541,5.859Z" transform="translate(-2.571 -2.861)"/>
+</svg>

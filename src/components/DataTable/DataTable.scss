@@ -1,0 +1,25 @@
+.DataTable {
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    overflow: hidden;
+    background-color: white;
+    padding: 15px 20px;
+    border-radius: 2px;
+    box-sizing: border-box;
+
+  &__body {width: 100%; height: auto; max-height: 400px; overflow: scroll}
+
+  &__row {
+    display: flex;
+    width: 100%;
+
+    & > div {width: 100%; height: auto; max-height: 70px;display: flex; padding: 15px 0; border-bottom: #c4e0fa 2px solid; align-items: center}
+  }
+
+  &__column {
+    &--small {width: 10%;}
+    &--medium {width: 15%;}
+    &--large {width: 25%;}
+  }
+}

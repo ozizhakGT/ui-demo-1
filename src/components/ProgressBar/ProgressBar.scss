@@ -1,0 +1,20 @@
+.ProgressBar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+
+  &:not(:last-child) {margin-bottom: 10px}
+
+  &__icon {flex: 0 25px; display: flex; justify-content: center}
+
+  &__progress {
+    flex: 1;
+    height: 9px;
+    border-radius: 21px;
+    border: solid 1px #010a60;
+    transition: width .2s .2s ease-out;
+
+    & > div {width: 0%;height: 100%; border-radius: 21px;background-color: #010a60}
+  }
+}

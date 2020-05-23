@@ -1,0 +1,30 @@
+.Overview {
+  &__row {display: flex;justify-content: space-between;}
+
+  &__pi--toggle {
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+
+    & > span {margin-right: 10px;color: #414141}
+  }
+
+  .pi-charts--wrapper {width: 95%;height: 180px; margin: 0 auto}
+
+  .pi-chart {
+    position: relative;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &--centering {
+      right: 20px;
+      & > hr {right: -20px !important;}
+    }
+
+    & > p {font-size: 1.4rem; margin-bottom: 15px}
+    & > hr {position: absolute; right: 0; top: 0; height: 100%; width: 1px; border: none; background-color: #f4f4f8;;}
+  }
+}

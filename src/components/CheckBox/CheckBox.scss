@@ -1,0 +1,22 @@
+.CheckBox {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  & > input {  position: absolute;opacity: 0;cursor: pointer;height: 0;width: 0;}
+
+  &__input {display: block; height: 15px;width: 15px;border: #010a60 2px solid; transition: all .2s ease-out;}
+  &__input:after {content: ''; display: none;}
+
+  &__input:after {width: 4px; height: 9px;border: solid white;border-width: 0 2px 2px 0;-webkit-transform: rotate(45deg) translate(4px, -3px);-ms-transform: rotate(45deg) translate(4px, -3px);transform: rotate(45deg) translate(4px, -3px);}
+
+  &:hover input ~ &__input {background-color: #e4e4ef;}
+  & input:checked ~ &__input {background-color: #010a60;}
+  & input:checked ~ &__input:after {display: block;}
+}

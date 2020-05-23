@@ -1,0 +1,17 @@
+.Container {
+  box-shadow: 0 3px 16px 0 rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  background-color: white;
+  padding: 15px;
+  margin-top: 25px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &__small {width: 199px;height: 117px;}
+  &__medium {width: 245px; height: 117px;}
+  &__large {width: 639px; height: 253px;}
+  &__full {width: 100%;}
+  &__square-md {width: 308px; height: 253px;}
+}

@@ -1,0 +1,16 @@
+/*fornat all elements*/
+*, *:link, *:visited {text-decoration: none;margin: 0;padding: 0; list-style: none; color: inherit}
+html {font-size: 10px; background-color: #f4f4f8; height: 100%}
+body, #root {height: 100%}
+
+input {border: solid 2px #c4e0fa; padding: 10px 0 10px 30px; box-sizing: border-box; font-size: 1.6rem;}
+input:focus {outline: none}
+
+
+/* General styles */
+.title {font-size: 3.5rem; font-weight: bold;}
+.subtitle {font-size: 1.6rem; font-weight: bold;}
+
+.weight300 {font-weight: 300;}
+.weight500 {font-weight: 500;}
+.weight700 {font-weight: 700;}
